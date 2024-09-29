@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "app"
+name = "helper"
 version = "0.1.0"
-description = ""
+description = "Python helper functions"
 authors = ["Jin Chen <jin.chen@jinchen.me>"]
 
 [tool.poetry.dependencies]
@@ -13,9 +13,6 @@ pytest = "^8.2.2"
 [tool.poetry.group.dev.dependencies]
 pre-commit = "^3.7.1"
 ruff = "0.6.8"
-
-[tool.poetry.scripts]
-app = "app.scripts.cli:main"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
